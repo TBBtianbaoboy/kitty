@@ -12,6 +12,7 @@
 > install by running the following command
 
 ```sh
+chmod +x install
 ./install
 ```
 
