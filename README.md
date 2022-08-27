@@ -18,7 +18,25 @@ chmod +x install
 
 # Keymap
 
-> TODO
+> <Ctrl-Shift-v> -> 粘贴选中的内容
+
+> <Alt-v> -> 垂直分屏
+
+> <Alt-h> -> 水平分屏
+
+| --- | --- |
+| <Ctrl-Shift>H | 光标跳转到左边的屏幕 |
+| <Ctrl-Shift>J | 光标跳转到下边的屏幕 |
+| <Ctrl-Shift>K | 光标跳转到上边的屏幕 |
+| <Ctrl-Shift>L | 光标跳转到右边的屏幕 |
+
+# Command
+
+```sh
+# list supported fonts
+kitty +list-fonts
+
+```
 
 # Version
 
@@ -26,5 +44,5 @@ chmod +x install
 
 # more
 
-[zsh](https://github.com/TBBtianbaoboy/zsh) is useful with kitty
+[zsh](https://github.com/TBBtianbaoboy/zsh) zsh is useful with kitty
 [neovim](https://github.com/TBBtianbaoboy/nvim-coc-awesome) is a useful editor with above
