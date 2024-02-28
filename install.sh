@@ -102,8 +102,8 @@ function config() {
         exit 1
     fi
     echo "Kitty config file created successfully in $HOME/.config/kitty/kitty.conf"
-    check_fonts
-    install_fonts
+#    check_fonts
+#    install_fonts
     echo "Kitty fonts config successfully"
 }
 
